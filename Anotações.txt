@@ -1,0 +1,337 @@
+HTML - Linguagem de marcação de texto
+
+/////////////////////////////////Página inicial///////////////////////////////////
+"<TAGS>"
+
+*<!DOCTYPE html> Deve ser colocada no inicio do progeto, Dessa forma o navegador identifica a versão que é usada.
+<html lang="pt-br"></html> opção para o navegante de linguagem 
+
+*<meta charset="UTF-8"> Dicionario que tem os tipos de linguagens com caracteries usados 
+
+*<meta name="viewport" content="width=device-width"> - devemos usar para que nosso programa rode em todos os estilos de tela e tamanhos de aparelhos
+
+*<title></title> Para descreber o titulo da aba do navegador 
+
+*<head> </head> cabeça, tudo que envolve a estrutura do HTML
+
+*<body></body> corpo, toda informaçao que vai para exibir  o navegador
+
+*<h1></h1>  Titulo do texto
+
+*<p></p>    paragrafo de texto
+
+*<stong></strong>  Negrito de uma palavra ou texto
+
+*<em> </em> marcar o conteúdo em hitalico
+
+*<img src ="nome da imagem"> - usada para adicionar imagem
+
+*<h1></h1> ou <h2></h2> - usado para criar titulos dentro do HTML. De acordo com a seguêçncia.
+
+*<ul> </ul>- usado para criar listas sem ordem especifica
+
+*<ol> </ol>- usado para criar listas ordenadas 
+
+*<li> </li> - para organizar as listas 
+
+*<header> </header> - cabeçalho da pagina 
+
+
+*<div='exemplo" - <div></div>usada para dividir a pagina com a finalidade de 
+poder modificar cada bloco de uma forma diferente. o "exemplo" sera o nome
+da classe que vamos criar. Lembrando que a criação de classes é preciso em casos
+de modificação de multiplos itens e o em caso de criação de um único itén
+usamos a criação de id= .
+
+*display: inline-block; - usamos para que podemos limitar os itens com a finalidade
+de por exemplo colocar uma imagem ao lado de uma frase ou lista. Quando criamos uma propriedade dessa forma
+limitamos os uiténs a oculpar somente o tamanho usado.
+
+*vertical-align: top; usada para se alinhar a primeira frase de forma que a imagem fique
+começando da primeira frase e não terminando como referencia na última frase;
+
+8
+
+
+
+CSS - 
+
+//////////////////////////////////Página iicial////////////////////////////////////
+"propriedades"
+
+*<link rel="stylesheet" href="style.css"> deve ser usado no head do Codigo com a finalidade de assim o navegador identificar as alterações de CSS.
+
+*style="font-size: tamanho" - comando para o tamanho da fontes
+
+*style="text-aling: center" - alinhar o texto
+
+*  color: red - cor de um elemento
+
+*background: #cccccc - cor de fundo
+
+*dicionário hexadecimal: 0123456789ABCDEF
+
+*RGB =Red; Green; Blue - usamos essa referência nas cores que
+vamos usar no CSS. EX para representar o vermelho: #FF0000
+-TEMOS A FORMA TAMBÉM ESCRITA: RES; BLUE; YELLOW...
+-TEMOS TAMBÉM O RGB NÚMERICO QUE VAI DE 0 ATÉ 255. EX: rgb(255,255,255)
+
+*class="exemplo" - {class vem de classes} conceito de classes do CSS, CRIADO PARA 
+PODER MODIFICAR MAIS DE UM ITEM DE UMA SÓ VEZ. Da mesma forma deve se adissionar o nome classes 
+e dar um nome de referencia que vai ser usado em todos os itens que queremos modificar. ex:"Itens"
+
+*Para usar uma classe usamos o . no lugar da #
+
+*padding-left: 20px :: espaçamento interno para direita
+
+
+
+HTML - Linguagem de marcação de texto
+
+
+* position absolute:  Com o position: absolute, eu consigo posicionar meu elemento em qualquer lugar da página.
+ dessa forma podemos movar imagem eo texto para posição que queremos
+/////////////////////////////////////////Página secundaria/////////////////////////
+
+* <a> href="exemplo.html"Titulo do menu </a> - Ancora, essa tegue de conteudo abre e fecha, e é ultilizada para se criar 
+uma ligação "âncora" para um outro link ou página. Podemos támbem colocar uma página 
+externa sando o link do site. EX: <a> href="http://www.google.com"Titulo do menu </a>
+A tag <a> serve justamente como uma âncora, um link, que vai nos levar para outro ponto na internet.
+
+*<nav> </nav> - teg criada para navegação. ou seja, todo item de navegação fica dentro dessa teg.
+
+*<man></main> -  o principal, a coisa mais importante. Então a coisa mais importante são os nossos itens de produto, o corte de cabelo, o corte de barba e o cabelo + barba.
+
+*<footer></footer> = parte do rodapé.
+
+
+
+CSS - 
+
+-para zerar  as configurações criadas pelo navegador, devemos usar um arquivo chamado de Reset CSS.
+ESSE ARQUIVO DEVE SER COLOCADO NO INICIO DO NOSSO CÓDIGO, COM A FINALIDADE DE ZERAR AS CONFIGURAÇÕES E
+ASSIM PODEMOS COLOCAR AS NOSSAS. COMO FAZER: CRIAMOS UM LINK NO HTML. 
+
+<link rel ="styleesheet" href="reset.css">
+
+///////////////////////////////////////////////Página Secundaria///////////////////////////////////////
+
+* header{
+    background #BBBBBB  - configuração criada para mudar a cor de fundo do cabeçalho
+}
+
+* nav li{ *nav teg criada no html de navegação *li- lista
+     display :inline - usada para modificar o display de block para inline. Ou seja os itens de uma lista ou imagem deixa de ocupar toda uma linha de uma página e passa a ocupar somente o espaço necessário.
+}
+  
+* nav a{ 
+      text-transform: uppercase; - usamos para transformar todo o texto em maiusculo.     
+}
+
+* color: #000000 -  usado para mudar a cor da frase ou palavra para preto, com a auxencia de cor;
+
+* font - weight : bold; - conhecido como "peso da fonte" colocando ele em negrito com o "bold"
+
+* font - size : 22px - usamos para mudar o tamanho da fonte
+
+* text-decoration : none; - usado para tirar qualquer decoração do texcomo como por exembro uma linha que destaca a frase ou palavra de um itén.
+
+* margin: 0 0 0 15px - modificamos a margem, lembrando que o primeiro é topo, direita, pra baixo e esquerda. seguindo a ordem modificamos somente o espaço pra esquerda;
+
+* box-sizing: border-box; : usado para padronizar o espaçamento usado em px com o espaçamento de %
+ 
+*border-color: ; cor da borda
+ border-width: ; largura da borda
+ border-style: ; estilo da borda
+
+*border: 2px solid #000000; o mesmo efeito so que de forma simplificada
+
+*border-radius: 10px; usado para deixar as bordas de forma arredondada
+
+*nav a: houver : houver significa quando o mause estiver em cima de um item, ele realiza a transformação
+
+* // //: active : USADO QUANDO QUEREMOS CONFIGURAR ALGO QUANDO O MAUSE ESTIVER ATIVO OU SEJA QUANDO CLICAMOS
+
+*background: url("bg.jpg"); : usada para colar uma imagem no CSS;
+ 
+*site de simbolor : unicode
+
+/////////////////////////////////////////////parte 3 Contato//////////////////////////////////////////////
+
+HTML:
+                                       Campo de dados
+//<form>
+				<label for="nomesobrenome">Nome Sobrenome</label>
+				<input type="text" id="nomesobrenome">
+</form>
+
+* <form></form> teg usada para criar um formulário
+* <input type="text"> = Esse tipo de input para pegar qualquer tipo de informaçãousado para construir um campo onde se coloca informações. 
+* type= tipo text= texto
+* <label></label> = criar uma estrutura para cada campo onde se coloca as informações. etiqueta para um input. sempre se usa toda vez que criamos um input;
+* id="exemplo" = toda vez temos um input ele sempre vai ter um indentificador para poder conversar com o label
+* for="exemplo" = etiqueta para um input
+
+                            <input type="submit" value="Enviar formulário"> = 
+
+* type="subimit" : um tipo de input criado para enviar os dados fornecidos para um servidor ou endereço;
+* value = criamos um valor para o campo input. Dessa forma fica claro a função do input ;
+
+
+//////campos complexos com novas formas de input//////////
+
+               <label for="menssagem">Menssagem</label>
+               <textarea cols="70" rows="10" id="menssagem"></textarea>  
+                         
+*<textarea></textarea> - teg de conteúdo, abre e fecha. Usada para que o cliente ou usuário, preencha com texto em um campo criado.
+* cols= quantidade de colunas
+* rows = quantidade de linhas
+* <label></label> - etiqueta do input criado
+*for = "menssagem" - criado para conversar com o input
+*id = o indentificador do fro criado para ligar o input
+
+
+                        <label for="radio-email">Email</label>
+				<input type="radio" name="contato" value="email" id="radio-email">
+
+				<label for="radio-telefone">Telefone</label>
+				<input type="radio" name="contato" value="telefone" id="radio-telefone">
+
+				<label for="radio-whatsapp">WhatsApp</label>
+				<input type="radio" name="contato" value="whatsaap" id="radio-whatsapp">
+
+* type=radio - ou radio-box essa configuração tipo de input é criado para ter 3 ou mais opções referentes ao um unico campo
+* value= o tipo de valor deve ser especificado
+* label e o for = criado pra o titulo e para conversar com o id do input 
+* name -  para se marcar somente uma opção precisamos criar um nome nos 3 tipos de input.
+
+                       <label><input type="checkbox">Gostaria de receber nossas novidades por email?</label>
+
+
+* <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsaap" id="radio-whatsapp">WhatsApp</label>
+-----quando queremos alterar a orden onde o input fique antes do texto label, podemos juntar os dois colocando o input logo após o texto;
+
+////////////////////////////////////////////////Criando um seletor/////////////////////////////
+
+*<select></select> campo criado para seletor
+*<option>Manhã</option> - são tegs dentro do select para criar as opções;
+*alt="Logo da Barbearia Alura " - usamos o alt* sempre  em imagens para que fique especifico pro usuário e de forma acessivél a imagem que colocamos.
+
+
+
+---- site para verificar os tipos de input para acesso ao celular : mobile input types;
+
+*required - quando queremos que os campos sejam obrigatórios de ser preenchidos;
+*placeholder - ="seuemail@dominio.com"> - usado para dar exemplo ou sujestão dentro do input para preencher;
+*checked = usada para quando ja damos a opção selecionada que queremos do cliene. Fica selecionado a forma que queremos e o usuário troca se assim preferir
+*<fieldset></fieldset> = usamos no lugar da DIV = quando queremos agrupar um preenchimento ou agrupar uma configuração em um mesmo locar deixando assim o código mais legivél
+*<legend></legend> = usamos em casos de paragrafo substituindo o <p> quando usamos a teg fieldset
+*<table></table> - teg da tabela, para se criar uma tabela
+*<tr></tr> - siguinifica a quantidade de linhas da celula
+*<td><td/> - siguinifica celulas dentro da tabela 
+*<section></sectioon> - Para um bloco onde o conteúdo tenha o mesmo significado, o mesmo sentido, usamos uma <section>. usado em casos que temos u, grupo complexo, ou seja que tem o mesmo objetivo com titulo e conteudo com a mesm FUNÇÃO.
+
+////Podemos utilizar algumas fontes ja criadas no nosso conteudo, dessa forma podemos mudar a fonte de todo nosso codigo copiando a fonte especifica para a web
+ou seja, essa fonte funciona em todos os navegadores, com um mesmo visual. acessando o link no google de fonts////
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+//// Podemos importar também mapas com a localização, usando o google.maps e copiando o link para HTML
+
+
+
+
+
+
+
+CSS:
+
+*width: - largura 
+*margin: - margen
+*display: block; - todos os campos de um formulario são inline, e precisamos alterar para block
+*font-size: - tamanho da fonte
+*padding: 10px 25px; - Alternativa correta! A propriedade padding serve para alterarmos o espaçamento interno, entre o conteúdo e a borda.
+espaçamento interno do campo de input pra baixo,proslados
+*form input, form textarea - quando queremos as mesma configurações para mais de uma seletor com a virgula. Ou seja vamos na configuração criada e colocamos uma virgula e mais outra seleção.
+ 
+*width: 40%; - almentar ou diminuir a largura 
+*padding: 15px 0 ; - almentar o espaço entre a borda e o texto
+*background: orange; - mudar a cor de fundo do butão de input
+*color: white; - cor do texto
+*font-weight: bold; - fonte em negrito
+*font-size: 18px ; - tamanho da fonte da letra do texto
+*border: none; - quando queremos tirar a borda 
+*border-radius: 5px; - quando queremos aredondar a borda tirando as pontas
+*transition: 1s background; - a transição de cor quando o mause esta em cima e quando sai de cima do butão
+*hover - siguinifica quando o mause esta em cima do item 
+*background: darkorange; - mudar de cor de fundo quando estiver com o mause em cima 
+*cursor: pointer; - quando queremos a "maozinha" no lugar da seta. 
+*transform: scale(1.2); - quando queremos o efeito de almentar o botão quando colocamos o mause em cima ;
+
+criando  TABELA 
+
+table {
+	margin: 20px 0 40px; - espaço esterno
+}
+
+thead {
+	background: #555555; - cor de fundo
+	color: white; - cor de texto
+	font-weight: bold; - negrito
+}
+
+td, th {
+	border: 1px solid #000000; - borda da tabela + cor da tabela
+	padding: 8px 15px; - espaço interno
+ }
+
+*font-size: 2em; - quando queremos informa uma proporção relacionada a fonte padrão, ou seja, o título sempre vai se destacar já que ele sempre vai ser o dobro, do tamanho do titulo.
+*float -  em tradução livre "flutuação". Quando utilizamos este recurso,o elemento "descola" da página mas o que seria a sua sombra, continua sendo ocupada virtualmente, isto é, o texto respeita esse espaço ocupado.
+
+Para fazermos nossa imagem "flutuar" acessaremos style.css e definiremos em utensilios qual é o lado que desejamos que a flutuação ocorra, neste caso, left.
+
+////Podemos utilizar algumas fontes ja criadas no nosso conteudo, dessa forma podemos mudar a fonte de todo nosso codigo copiando a fonte especifica para a web
+ou seja, essa fonte funciona em todos os navegadores, com um mesmo visual. acessando o link no google de fonts////
+font-family: 'Montserrat', sans-serif;
+
+*.titulo-principal:first-letter {
+	font-weight: bold;            - Podemos dessa forma colocar a primeira letra de uma frase em negrito. Podemos usar também para criar frases inteiras em itálico usando o first-line { font-style:italic}
+*
+}
+
+
+*.itens:before {
+	content:"🟊";     - usamos por exemplo para colocar codigos ou imagens antes de uma frase ou texto. Item foi gerado e copiado do unicode
+}                    
+
+
+*main > p - usamos esse comando quando queremos alterar somente por exemplo um paragrafo expecifico.
+siguinifica selecionar um elemento "filho", ou seja aquele que deriva do que foi informado primeiro.
+
+*img (elemento ancora) + p - quando queremos alterar por exemplo só um paragrafo que não e derivado de um comando pai
+nesse caso usamos uma ancora. nesse exemplo queremos somente um paragrafo.
+
+*img ~ p - usamos para alterar todos os paragrafos <p> nesse caso depois de uma ancora img;
+
+* .principal p:not(#missão) - usamos em casos que queremos excluir um unico comando ende não queremos alterar a estrutura do código.
+por exemplo em manutenção ou algo do tipo, podemos alterar todos os paragrafos menos os que estão 
+com o id ou classe missão;
+
+*.imagem-beneficios{ -Formula para elemto com opacidade, ou seja, quando queremos deixar opaco com menos luz um elemento determinado.
+	width:60%       podemos também colocar o hover(quando o mause estiver por cima tornar o elemento opaco, dessa forma ocorre uma transformação;
+	opacity : 1;
+	transition : 400ms;
+	
+}
+
+*.imagem-beneficios:hover { - quando o mause estiver por cima, vai ocorrer essa opacidade do elemento.
+       opacity : 0.3
+}
+
+* box-shadow: x y  espalhamento cor - Usamos esse tipo de comando para criar sombras. A primeira e segunda propriedade se refere
+ao tamanho das laterais da sombra, a terceira propriedade é o espalhamento da sombra pra que fique menos quadrada ou de forma
+muito artifical e a ultima trata-se da cor. Podmos também usar um quarto elemento que é a itencidade da sombra;
+caso queremos criar uma nova sombra basta usar a (,) para criar uma nova sombra com novos valores.
+
+*box-shadow: iset 30% #FF0000 - Usamos para criar uma sombra interna da página com o espaçamento e a cor.
+
+*text-shadow: 2px 2px red - para criar sombra em texto, tem a mesma propriedade o que muda é a nomeclatura;

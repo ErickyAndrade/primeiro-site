@@ -1,2 +1,2 @@
-# primeiro-site
-Projeto Primeiro Site HTML/CSS
+# Meu Primeiro Site HTML/CSS
+Repositório criado para o desenvolvimento do Site
